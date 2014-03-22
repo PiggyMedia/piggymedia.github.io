@@ -1,0 +1,27 @@
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Arial";
+  background-color: #eee;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.ui.ribbon.label {
+  position: absolute;
+  top: 5px;
+  left: -17px;
+}
+
+.no.margin {
+  margin: 0;
+}
+
+.main.menu {
+  border-radius: 0;
+}

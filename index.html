@@ -1,0 +1,20 @@
+---
+layout: default
+title: PiggyMedia
+---
+
+<div class="ui two column grid">
+  {% for project in site.data.projects %}
+    <div class="column">
+      <div class="ui piled segment">
+        <div class="ui large teal ribbon label">{{ project.name }}</div>
+        <img src="/images/{{ project.image }}">
+        <div class="ui two large fluid buttons">
+          <a class="ui  button" href="{{ project.repo }}" target="_blank">GitHub</a>
+          <div class="or"></div>
+          <a class="ui black button" href="{{ project.site }}" target="_blank">Website</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

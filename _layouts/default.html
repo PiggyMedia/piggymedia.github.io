@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/semantic.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body class="no margin">
+    <div class="ui inverted large main menu">
+      <div class="container">
+        <div class="left menu">
+          <a href="/" class="item">{{ site.name }}</a>
+        </div>
+        <div class="right menu">
+          <a class="item" target="_blank" href="https://github.com/piggymedia"><i class="github icon"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      {{ content }}
+    </div>
+  </body>
+</html>

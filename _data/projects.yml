@@ -1,0 +1,5 @@
+- name: Warehouse Festival
+  type: website
+  repo: https://github.com/PiggyMedia/warehousefestival.dk
+  site: http://warehousefestival.dk
+  image: warehouse-festival.jpg

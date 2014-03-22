@@ -1,0 +1,4 @@
+name: PiggyMedia
+markdown: redcarpet
+pygments: true
+timezone: Europe/Copenhagen
